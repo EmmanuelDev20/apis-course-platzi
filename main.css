@@ -1,0 +1,41 @@
+:root {
+    --main: #201F25;
+    --secondary: #242329;
+    --third: #47A580;
+    --gray: #D9D9D9;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+*, html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--main);
+}
+
+.hide {
+    display: none;
+}
+
+img {
+    max-width: 500px;
+    width: 100%;
+}
+
+button {
+    display: block;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#imagenes {
+
+}

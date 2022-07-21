@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Gatos</title>
+</head>
+<body>
+    <h1>Gatos aleatorios</h1>
+
+    <section id="randomGatos">
+        <h2>Gatos aleatorio</h2>
+
+        <button id="cargarNueva">Recargar</button>
+        <p id="loader" class="hide">Cargando imagen</p>
+
+        <div id="imagenes">
+            <article>
+                <img id="img1" class="img" alt="Foto gato">
+                <button>Guardar gato</button>
+            </article>
+            <article>
+                <img id="img2" class="img" alt="Foto gato">
+                <button>Guardar gato</button>
+            </article>
+            <article>
+                <img id="img3" class="img" alt="Foto gato">
+                <button>Guardar gato</button>
+            </article>
+        </div>
+    </section>
+
+    <section id="favoritesGatos">
+        <h2>Gatos favoritos</h2>
+        <article>
+            <img id="img1" class="img" alt="Foto gato">
+            <button>Quitar gato</button>
+        </article>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
